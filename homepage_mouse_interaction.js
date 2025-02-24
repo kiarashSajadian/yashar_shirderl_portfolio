@@ -39,7 +39,7 @@ function setup() {
     nodeX[i] = 0;
     nodeY[i] = 0;
     angle[i] = 0;
-    frequency[i] = random(1, 12); // Assign random frequency to each node
+    frequency[i] = random(3, 4); // Assign random frequency to each node
   }
 
   noStroke();
