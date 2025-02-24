@@ -1,7 +1,7 @@
 // CONSTANTS
 const NODES = 5; // Number of nodes in the shape
 const RADIUS = 45; // Radius of the shape
-const SPRINGING = 0.0009; // Springing factor for smooth motion
+const SPRINGING = 0.09; // Springing factor for smooth motion
 const DAMPING = 0.98; // Damping factor to slow down motion
 const BACKGROUND_COLOR = 0; // Background color (black)
 
