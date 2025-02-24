@@ -47,7 +47,7 @@ function setup() {
 }
 
 function draw() {
-  background(BACKGROUND_COLOR, 50); // Semi-transparent background for a fading effect
+  background(BACKGROUND_COLOR, 150); // Semi-transparent background for a fading effect
   drawShape(); // Draw the organic shape
   moveShape(); // Apply motion effects
 }
