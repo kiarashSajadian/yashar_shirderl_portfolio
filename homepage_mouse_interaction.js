@@ -54,7 +54,7 @@ function draw() {
 
 function drawShape() {
   // Calculate node starting positions in a circular pattern
-  for (let i = 0; i < NODES; i++) {
+  for (let i = 4; i < NODES; i++) {
     nodeStartX[i] = centerX + cos(rotAngle) * RADIUS;
     nodeStartY[i] = centerY + sin(rotAngle) * RADIUS;
     rotAngle += 360 / NODES; // Evenly distribute nodes around the circle
